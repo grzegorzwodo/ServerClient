@@ -9,7 +9,6 @@ import java.util.Date;
 public class Server
 {
     public static void main( String[] args ) throws IOException {
-
         ServerSocket listener = new ServerSocket(9090);
         System.out.println("Date server is running");
         Socket socket = listener.accept();
